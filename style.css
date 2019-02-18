@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Oswald|Ubuntu');
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  position: relative;
+  padding: 2%;
+  width: 80%;
+  max-width: 500px;
+  height: 100%;
+  top: 50px;
+  margin: auto;
+  margin-bottom: 50px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  box-shadow: 0 40px 25px -20px rgba(0,0,0,0.7);
+}
+
+img {
+  display: block;
+  margin: auto;
+  height: 10%;
+  width: 10%;
+}
+
+#title {
+  height:auto;
+  font-family: Oswald;
+  font-size: 40px;
+  text-align: center;
+  border-bottom: 5px solid #0074E8;
+}
+
+.form-wrapper {
+  margin-top: 8%;
+  text-align: center;
+}
+
+.form-wrapper label {
+  margin: 1%;
+  text-indent: 20px;
+  text-align: indent;
+  display: block;
+  font-family: Ubuntu;
+  color: #000;
+}
+
+.vo-data {
+  margin: 1%;
+  font-family: 'Ubuntu';
+  background-color: #ccc;
+  width: 380px;
+  height: 50px;
+  line-height: 48px;
+  font-size: 15px;
+  border: 0;
+  outline: 0;
+  border-radius: 25px;
+  padding-left: 25px;
+  opacity: 0.6;
+}
+
+.why {
+  height: 80px;
+}
+
+#ss-submit {
+  display: block;
+  margin: 10px auto;
+  height: 50px;
+  width: 240px;
+  box-sizing: border-box;
+  padding: 0.75rem;
+  font-size: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  border: none;
+  background: #0074E8;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem #0000FF;
+  outline: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+  
+}
+
+#ss-submit:active {
+  box-shadow: none;
+  border: none;
+}
+
+.footer {
+  margin: 15px auto;
+  color: #aaa;
+  height:auto;
+  font-family: Lato;
+  font-size: 12px;
+  text-align: center;
+}
